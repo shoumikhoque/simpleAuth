@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+      body {
+        background-image: url("https://meinklassiker.com/wp-content/uploads/2018/08/BPS.jpg");
+      }
+      .container {
+        width: inherit;
+      }
+      .price-tag {
+        color: green;
+      }
+      img {
+        display: block;
+        width: 256px;
+        height: 256px;
+      }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper blue z-depth-3">
+        <a href="#" class="brand-logo center large">Vehicle Showroom</a>
+        <ul id="nav-mobile" class="right">
+          <li>
+            <a
+              href="register"
+              data-target="accNo"
+              class="z-depth-5 light-blue btn btn-large waves-effect waves-light modal-trigger tooltipped"
+              data-tooltip="Card"
+              data-position="bottom"
+              >Register</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row center">
+        <h3 style="color:green">Welcome <%= name %></h3>
+      </div>
+    </div>
+  </body>
+</html>
